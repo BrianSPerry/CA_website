@@ -3,6 +3,7 @@ body {
 	height: 100%;
 	background-color: rgba(124,106,240,0.20);
 }
+<<<<<<< HEAD
 
 .video-container {
 	position: absolute;
@@ -22,3 +23,5 @@ top:50%;
 left:50%;
 transform: translate(-50%) translate(-50%);	
 }
+=======
+>>>>>>> parent of 6e11db5... Implemeting Test for the Video cover
