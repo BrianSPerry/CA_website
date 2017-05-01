@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	"use strict";
 	var vid = $('video');
 	var vid_w_orig = 1280;
 	var vid_h_orig = 720;

@@ -5,11 +5,15 @@ body {
 }
 
 .video-container {
-	width: 100vh;
-	height: 600px;
-	margin-top: 0px;
 	position: absolute;
-	left: 10%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow:hidden;
+	width: auto;
+	height: auto;
+	margin-top: 0px;
 }
 
 .video{
