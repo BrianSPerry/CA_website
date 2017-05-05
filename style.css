@@ -3,7 +3,7 @@ body {
 	height: 100%;
 	background-color: rgba(124,106,240,0.20);
 }
-.video-container {
+.page-content .video-container {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -14,18 +14,19 @@ body {
 	z-index:-100;
 } 
 .page-content {
-    position: absolute;
-    background-color: rgba(233,30,33,1.00);
-    width: 100%;
-    top: 100%;
-    height: 100%;
-}
-.page-content .img-holder {background-color: rgba(32,35,200,1.00);
-    width: 100%;
     position: relative;
-    z-index: 10;
-    height: 550px;
+    height: 0;
+	padding-bottom:50%;
+}
+.page-content .img-holder {
+	position: absolute;
     top: 100px;
+	left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+	background-color: rgba(32,35,200,1.00);
+
 }
 .page-content .slogan-holder {
 	width: 100%;
