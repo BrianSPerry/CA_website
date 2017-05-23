@@ -5,12 +5,12 @@ body {
 }
 .page-content .video-container {
 	position: absolute;
-	top: 0;
+	/*top: 0;*/
 	bottom: 0;
 	left: 0;
 	right: 0;
 	overflow: hidden;
-	margin-top: 47px;
+	/*margin-top: 47px;*/
 	z-index:-100;
 } 
 .page-content {
@@ -18,21 +18,127 @@ body {
     height: 0;
 	padding-bottom:50%;
 }
+
 .page-content .img-holder {
-	position: absolute;
-    top: 100px;
-	left:0;
+    position: absolute;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     z-index: 10;
-	background-color: rgba(32,35,200,1.00);
+    background-color: rgb(165, 32, 82);
+    margin-top: 10%;
 
 }
-.page-content .slogan-holder {
-	width: 100%;
-	position: relative;
-	z-index: 10;
-	height: 100px;
-	top: 100px;
-	background-color: rgba(179,168,19,1.00);
+.page-content .img-holder .img {
+	width: 25%;
+    height: 60%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    left: 5%;
 }
+.page-content .img-holder #img1 {
+    background-color: #286090;
+
+}
+
+.page-content .img-holder #img2 {
+    background-color: grey;
+    position: absolute;
+    left: 37%;
+    bottom: 0;
+}
+
+.page-content .img-holder #img3 {
+	background-color:orange;
+	    position: absolute;
+    left: 69%;
+    bottom: 0;
+}
+
+
+
+.page-content .slogan-holder {
+    position: absolute;
+    /* top: 100px; */
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+    background-color: rgb(1, 0, 255);
+    /* padding-bottom: 50%; */
+    margin-top: 10%;
+}
+.footer{
+	width: 100%;
+	height: 40%;
+	position:relative;
+	top:10%;
+	bottom:15%;
+	background-color: rgba(239,40,43,1.00);
+	padding-bottom:50%;
+}
+
+
+
+@media (max-width: 360px), (max-width: 412px), (max-width: 415px) {
+	.page-content .img-holder .img {
+	width: 100%;
+	height: 200%;
+	left:0;	
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.page-content .img-holder #img2 {
+	left: 0;
+    top: 0;
+	margin-top:50%;
+}
+.page-content .img-holder #img3 {
+	left: 0;
+    top: 0;
+		margin-top:100%;
+}
+
+}
+/*
+@media (max-width: 412px){
+	.page-content .img-holder .img {
+	width: 100%;
+	height: 200%;
+	left:0;	
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.page-content .img-holder #img2 {
+	left: 0;
+    top: 0;
+	margin-top:50%;
+}
+.page-content .img-holder #img3 {
+	left: 0;
+    top: 0;
+		margin-top:100%;
+}
+
+}
+@media (max-width: 415px){
+	.page-content .img-holder .img {
+	width: 100%;
+	height: 200%;
+	left:0;	
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.page-content .img-holder #img2 {
+	left: 0;
+    top: 0;
+	margin-top:50%;
+}
+.page-content .img-holder #img3 {
+	left: 0;
+    top: 0;
+		margin-top:100%;
+}
+
+}*/
