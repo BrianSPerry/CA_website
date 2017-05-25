@@ -1,18 +1,90 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coded Arts Testing</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
 
-  
+	<link rel="stylesheet" href="css/style.css">
+	
+<title>Coded Arts Ltd.</title>
+
 </head>
-
 <body>
+
+<h2>Animated Modal with Header and Footer</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+<h2>Animated Modal with Header and Footer</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+<h2>Animated Modal with Header and Footer</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
@@ -30,7 +102,7 @@
   
     <li>
       <div>
-        <img src="C:\Users\Delon\Desktop\CA Testing\img\ca1.png" alt=""/>
+		<img src="C:\Users\Delon\Desktop\CA Testing\img\ca.jpg" alt=""/>
         <h1>Brian Perry</h1>
         <p>Technology Director of Coded Arts</p>
     </div>
@@ -66,7 +138,7 @@
   
   <li>
       <div>
-        <img src="C:\Users\Delon\Desktop\CA Testing\img\ca1.png" alt=""/>
+        <img src="C:\Users\Delon\Desktop\CA Testing\img\ca.jpg" alt=""/>
         <h1>Linda Singh Jenkins</h1>
         <p>Mentor</p>
     </div>
@@ -82,13 +154,41 @@
   
     <li>
       <div>
-        <img src="C:\Users\Delon\Desktop\CA Testing\img\ca1.png" alt=""/>
+        <img src="C:\Users\Delon\Desktop\CA Testing\img\ca.jpg" alt=""/>
         <h1>Brain Wood</h1>
         <p>Mentor</p>
     </div>
   </li>
    </div>
 </ul>
-  
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 </body>
 </html>
