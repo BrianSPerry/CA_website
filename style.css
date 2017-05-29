@@ -23,10 +23,10 @@ body {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 80%;
     z-index: 10;
-    background-color: rgb(165, 32, 82);
-    margin-top: 10%;
+    background-color: rgba(65, 105, 224, 0.38);
+/*    margin-top: 10%;*/
 
 }
 .page-content .img-holder .img {
@@ -34,7 +34,7 @@ body {
     height: 60%;
     position: relative;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 13%;
     left: 5%;
 }
 .page-content .img-holder #img1 {
@@ -43,7 +43,17 @@ body {
     margin-left: 5%;
     left: 0;
     bottom: 0;
+/*	background-image: url("https://instagram.fpos2-1.fna.fbcdn.net/t51.2885-15/e35/18012040_1923607524563322_3141968052485095424_n.jpg");*/
 
+}
+#loop{
+	max-width: 100%;
+    height: 100%
+	;
+}
+#char{
+	max-width: 100%;
+    height: 100%;
 }
 
 .page-content .img-holder #img2 {
