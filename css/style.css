@@ -1,5 +1,5 @@
 /* The Modal (background) */
-.modal5 {
+.modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -14,7 +14,7 @@
 }
 
 /* Modal Content */
-.modal-content5 {
+.modal-content {
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -40,29 +40,29 @@
 }
 
 /* The Close Button */
-.close5 {
+.close {
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close5:hover,
-.close5:focus {
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-header5 {
+.modal-header {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
 }
 
-.modal-body5 {padding: 2px 16px;}
+.modal-body {padding: 2px 16px;}
 
-.modal-footer5 {
+.modal-footer {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
@@ -322,6 +322,20 @@ h2 {
     color: white;
 }
 
+.Btn {
+    display:block; /* change this from inline-block */
+    width:100%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    font-size:275%;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-align:center;
+    cursor:pointer;
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+}
+
 /* VR/AR */
 /* The Modal (background) */
 .modal1 {
@@ -391,6 +405,20 @@ h2 {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+}
+
+.Btn1 {
+	display:block; /* change this from inline-block */
+    width:100%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    font-size:275%;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-align:center;
+    cursor:pointer;
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
 }
 
 /* Animation/Modeling */
@@ -464,6 +492,20 @@ h2 {
     color: white;
 }
 
+.Btn2 {
+	display:block; /* change this from inline-block */
+    width:100%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    font-size:275%;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-align:center;
+    cursor:pointer;
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+}
+
 /* GIX */
 /* The Modal (background) */
 .modal3 {
@@ -535,6 +577,20 @@ h2 {
     color: white;
 }
 
+.Btn3 {
+    display:block; /* change this from inline-block */
+    width:100%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    font-size:275%;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-align:center;
+    cursor:pointer;
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+}
+
 /* Web */
 /* The Modal (background) */
 .modal4 {
@@ -604,4 +660,18 @@ h2 {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+}
+
+.Btn4 {
+	display:block; /* change this from inline-block */
+    width:100%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    font-size:275%;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-align:center;
+    cursor:pointer;
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
 }
