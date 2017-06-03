@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	width: 100%;
 	height: 100%;
@@ -232,3 +233,239 @@ h2 {
 }
 
 /* End Parallax*/
+=======
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(124,106,240,0.20);
+}
+.page-content .video-container {
+	position: absolute;
+	/*top: 0;*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	/*margin-top: 47px;*/
+	z-index:-100;
+} 
+.page-content {
+    position: relative;
+    height: 0;
+	padding-bottom:50%;
+}
+
+.page-content .img-holder {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 10;
+    background-color: rgba(65, 105, 224, 0.38);
+/*    margin-top: 10%;*/
+
+}
+.page-content .img-holder .img {
+	width: 25%;
+    height: 60%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 13%;
+    left: 5%;
+}
+.page-content .img-holder #img1 {
+    background-color: #286090;
+    position: absolute;
+    margin-left: 5%;
+    left: 0;
+    bottom: 0;
+/*	background-image: url("https://instagram.fpos2-1.fna.fbcdn.net/t51.2885-15/e35/18012040_1923607524563322_3141968052485095424_n.jpg");*/
+
+}
+#loop{
+	max-width: 100%;
+    height: 100%
+	;
+}
+#char{
+	max-width: 100%;
+    height: 100%;
+}
+
+.page-content .img-holder #img2 {
+    background-color: grey;
+    position: absolute;
+    left: 37%;
+    bottom: 0;
+}
+
+.page-content .img-holder #img3 {
+	background-color:orange;
+	    position: absolute;
+    left: 69%;
+    bottom: 0;
+}
+
+footer{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* top: 0; */
+    padding: 1rem;
+    background-color: rgba(54,188,99,0.81);
+    text-align: center;
+	z-index:999;
+}
+.PageHolder {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(193, 3, 161, 0.71);
+}
+
+#img_hld{
+	margin-top:5%;
+	margin-bottom:5%;
+	left:0;
+	right:0;
+}
+
+
+/*
+@media (max-width:764px){
+	#img_hld{
+    margin-top: 5%;
+    margin-bottom: 120vh;
+    left: 0;
+    right: 0;
+}
+	.page-content .img-holder {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    background-color: rgb(165, 32, 82);
+    margin-top:0;
+	}
+	
+	
+.page-content .img-holder .img {
+	width: 25%;
+    height: 60%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    left: 5%;
+}
+.page-content .img-holder #img1 {
+    background-color: #9c5858;
+    position: relative;
+    margin-left: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+
+}
+
+.page-content .img-holder #img2 {
+    background-color: grey;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.page-content .img-holder #img3 {
+    background-color: orange;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+}
+}*/
+
+@media (max-width: 360px), (max-width: 412px), (max-width: 415px), (max-width:764px) {
+
+	#img_hld{   
+    margin-top: 0;
+    margin-bottom: 110%;
+    left: 0;
+    right: 0;
+	}
+	
+	.page-content .img-holder {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    background-color: rgb(165, 32, 82);
+    margin-top: 0;
+	}
+	
+	.page-content .img-holder .img {
+	width: 100%;
+	height: 200%;
+	left:0;	
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.page-content .img-holder #img1 { 	
+    background-color: #1aa5a5;
+    position: relative;
+    margin-left: 0;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+
+}
+.page-content .img-holder #img2 {
+	left: 0;
+    top: 0;
+	margin-top:50%;
+}
+.page-content .img-holder #img3 {
+	left: 0;
+    top: 0;
+		margin-top:100%;
+}
+
+
+}
+
+
+
+
+/* Parallax For Games And Products*/
+h1 {
+	text-align: center;
+	font-size: 575%;
+	color: #4A4444;
+	text-transform: uppercase;
+	letter-spacing: 1%
+	margin: 45% 0;
+}
+h2 {
+	text-align: center;
+	font-size: 275%;
+	color: #E5E5E5;
+	text-transform: uppercase;
+	letter-spacing: 1%
+}
+
+/* Start Parallax*/
+
+.parallax {
+	background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+}
+.parallax-inner {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+/* End Parallax*/
+>>>>>>> origin/BetaTesting
